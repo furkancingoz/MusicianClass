@@ -12,3 +12,9 @@ let james = Musicians(nameInput: "furkan", ageInput: 23, instrumentInput: "gitar
 
 
 print(james.type)
+
+
+let kirk = SuperMusician(nameInput: "kirk", ageInput: 55, instrumentInput: "guitar", typeInput: .Gitarist)
+kirk.sing()
+//kirk.sing2()
+
