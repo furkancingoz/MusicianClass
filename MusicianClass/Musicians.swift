@@ -10,28 +10,20 @@ import Foundation
 
 class Musicians {
     // proportiy
-    var name = ""
-    var age = 0
-    var instrument = ""
+    var name : String = ""
+    var age : Int = 0
+    var instrument : String = ""
+    
+    
+   
+    init() {
+        print("created")
+    }
     
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+ 
     
     
 }

@@ -9,10 +9,7 @@ import Foundation
 
 let james = Musicians()
 
-james.age = 23
-james.name = "Furkan"
-james.instrument = "Guitar"
+
+james.name
 
 print(james.name)
-print(james.age)
-print(james.instrument)
