@@ -7,9 +7,8 @@
 
 import Foundation
 
-let james = Musicians()
+let james = Musicians(nameInput: "furkan", ageInput: 23, instrumentInput: "gitarist", typeInput:.vokal)
 
 
-james.name
 
-print(james.name)
+print(james.type)

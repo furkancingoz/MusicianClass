@@ -7,23 +7,34 @@
 
 import Foundation
 
+enum MusiciansType {
+    case Gitarist
+    case vokal
+    case bascı
+    case piyonocu
+}
+
 
 class Musicians {
-    // proportiy
-    var name : String = ""
-    var age : Int = 0
-    var instrument : String = ""
+    // property
+    var name : String
+    var age : Int
+    var instrument : String
+    var type : MusiciansType
     
     
-   
-    init() {
-        print("created")
+    //Initializer
+    init(nameInput:String,ageInput:Int,instrumentInput:String,typeInput:MusiciansType) {
+        name = nameInput
+        age = ageInput
+        instrument = instrumentInput
+        type = typeInput
     }
     
     
     
     
- 
+    
     
     
 }
